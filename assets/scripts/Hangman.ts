@@ -38,14 +38,11 @@ export default class Hangman extends cc.Component {
 
     clickButton(){
        const value = this.editBox.getChildByName("TEXT_LABEL").getComponent(cc.Label);
-       if (this.value.string != "" && this.checkIfLetterExists(this.value.string) == true){
-          console.log("Aiai");
-       }
+       
     }
     checkIfLetterExists(l: cc.Label){
         for (let i = 0; i<7; i++){
             if (this.h_w[i] = l){
-                return true;
                 
             }
         }
