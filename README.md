@@ -11,4 +11,4 @@ Hangman is one of the most famous basic games ever, and in this repository I wil
 + Typescript
 
 ## Game Screenshot (In development)
-<img src="screenshot/p.png"> 
+<img src="screenshot/print.png"> 
