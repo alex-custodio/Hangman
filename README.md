@@ -10,5 +10,5 @@ Hangman is one of the most famous basic games ever, and in this repository I wil
 + Cocos Creator (Game Engine)
 + Typescript
 
-## Game Screenshot (In development)
+## Game Screenshot (Completed :D)
 <img src="screenshot/print.png"> 
