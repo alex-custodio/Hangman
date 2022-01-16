@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "Hangman",
+  "id": "43f85701-c8db-434b-ba40-a56e9b2a6b49",
+  "version": "2.4.7",
+  "isNew": false
+}
