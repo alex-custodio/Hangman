@@ -14,13 +14,13 @@ export default class Hangman extends cc.Component {
     word: cc.Node[];
     editBox: cc.Node;
     // hidden word: rebirth
-    h_w: [string, string, string, string, string, string, string];
+    h_w: string[];
     @property(cc.Label)
     errorLabel: cc.Label = null;
     @property(cc.Node)
     anchor: cc.Node = null;
-    @property(cc.Node)
-    surprise: cc.Node = null;
+    @property(cc.Prefab)
+    surprise: cc.Prefab = null;
     errorPoints: number;
     win: number;
     hanged: cc.Node[];
@@ -95,7 +95,11 @@ export default class Hangman extends cc.Component {
     }
 
     endGameWinning(){
-        this.surprise.active = true;
+        const sur = cc.instantiate(this.surprise);
+        this.node.addChild(sur);
+        
+        
+        
     }
     start () {
 
